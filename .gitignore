@@ -1,0 +1,25 @@
+﻿# 依赖与构建产物
+node_modules/
+dist/
+target/
+build/
+*.class
+
+# IDE
+.idea/
+.vscode/
+*.iml
+*.ipr
+*.iws
+
+# 运行时上传的图片
+springboot/files/
+
+# 前端是独立仓库，单独推送
+vue3/
+
+# 系统与日志
+.DS_Store
+Thumbs.db
+*.log
+logs/
